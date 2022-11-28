@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sprint 4 E-commerce Jared</title>
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/1a58ad0bca.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <div>
+            <p>Something you love is now on sale! <span><strong><u>Buy now!</u></strong></span></p>
+        </div>
+        <div id="header2">
+            <i class="fa-solid fa-flag-usa"></i>
+            <p>English</p>
+            <p>USD</p>
+        </div>
+    </header>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="ecommerce.html"><img src="./img/logo.png" height="24px"></a>
+            <div class="navbar-collapse" id="navbarSupportedContent">
+                <form id="searcher" class="d-flex" role="search">
+                    <button id="gps" class="btn"><i class="fa-solid fa-location-dot"></i>
+                    </button>
+                    <div class="input-group">
+                        <form>
+                            <input type="text" class="form-control" placeholder="I'm searching for..."
+                                aria-label="Recipient's username" id="search">
+                            <button class="btn btn-outline-secondary" type="submit" id="button-addon2"><i
+                                    class="fa-solid fa-magnifying-glass"></i></button>
+                        </form>
+                    </div>
+                </form>
+                <ul id="nav-ul" class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><i
+                                class="fa-solid fa-phone-volume"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active border-start border-end" aria-current="page" href="favs.html"><i
+                                class="fa-regular fa-heart"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active border-end position-relative" aria-current="page" href="cart.html"><i
+                                class="fa-solid fa-cart-shopping"></i><span
+                                class="notification position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                0</span></a>
+
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="admin.html"><i
+                                class="fa-regular fa-user"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <button id="categories" class="btn"><i class="fa-solid fa-bars-staggered"></i> All Categories</button>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Home</option>
+                        </select>
+                    </li>
+                    <li>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Shop</option>
+                        </select>
+                    </li>
+                    <li>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Product</option>
+                        </select>
+                    </li>
+                    <li>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Mega Menu</option>
+                        </select>
+                    </li>
+                    <li>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Blog</option>
+                        </select>
+                    </li>
+                    <li>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Pages</option>
+                        </select>
+                    </li>
+                    <li>
+                        <a id="contact" class="nav-link" href="#">Contact</a>
+                    </li>
+
+                </ul>
+                <button id="bolt" class="btn btn-outline-success"><i class="fa-solid fa-bolt"></i>
+            </div>
+        </div>
+    </nav>
+    <section id="UselessSection" class="m-auto row">
+        <div class="uselessUp col-lg-7 col-md-10 col-sm-12 ">
+            <div class="stayhome">
+                <div class="textStayHome">
+                    <p>Exclusive Offer <span class="text-danger">30% Off</span></p>
+                    <h1>STAY HOME & DELIVERED YOURS</h1>
+                    <h1 class="text-success"><strong>DAILY NEEDS</strong></h1>
+                    <p>Vegetables contain many vitamins and minerals that are good for your health.</p>
+                    <button class="btn btn-danger">Shop now <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="useless2 m-2 col-lg-4 col-md-6 col-sm-12">
+            <div class="row">
+                <div class="nutCollection col-12">
+                    <h1><strong class="text-danger">45%</strong>OFF</h1>
+                    <h3 class="text-success">Nut Collection</h3>
+                    <p>We deliver organic <br> vegetables & fruits </p>
+                    <p>Shop now! <i class="fa-solid fa-arrow-right"></i></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="healthyFood col-12">
+                    <h3 class="text-success">Healthy Food</h3>
+                    <h4 class="text-danger">Organic Market</h4>
+                    <p>Star your daily <br> shopping som... </p>
+                    <p>Shop now! <i class="fa-solid fa-arrow-right"></i></p>
+                </div>
+            </div>
+        </div>
+        <div class="useless3 m-auto row ">
+            <div class="HotDeals col-lg-4 col-md-6 col-sm-12">
+                <p class="text-danger">5% OFF</p>
+                <h3><strong>Hot Deals on New Items</strong></h3>
+                <p>Daily Essentials Eggs & Dairy</p>
+                <p>Shop now! <i class="fa-solid fa-arrow-right"></i></p>
+            </div>
+            <div class="BuyMore col-lg-4 col-md-6 col-sm-12">
+                <p class=" text-danger">5% OFF</p>
+                <h3><strong>Buy More & Save More</strong></h1>
+                    <p>Fresh Vegetables</p>
+                    <p>Shop now! <i class="fa-solid fa-arrow-right"></i></p>
+            </div>
+            <div class="OrganicMeat col-lg-4 col-md-6 col-sm-12">
+                <p class=" text-danger">5% OFF</p>
+                <h3><strong>Organic Meat Prepared</strong></h3>
+                <p>Delivered to Your Home</p>
+                <p>Shop now! <i class="fa-solid fa-arrow-right"></i></p>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="secondSection row">
+        <section class="category bg-light col-2">
+            <p><strong>Category</strong></p>
+            <ul>
+                <li><i class="fa-solid fa-carrot"></i>Vegetables & Fruit</li>
+                <li><i class="fa-solid fa-mug-hot"></i>Beverages</li>
+                <li><i class="fa-solid fa-drumstick-bite"></i>Meats & Seafood</li>
+                <li><i class="fa-solid fa-bread-slice"></i>Breakfast & Dairy</li>
+                <li><i class="fa-regular fa-snowflake"></i>Frozen Foods</li>
+                <li><i class="fa-solid fa-cookie"></i>Biscuits & Snacks</li>
+                <li><i class="fa-brands fa-envira"></i>Grocery & Staples</li>
+                <li><i class="fa-solid fa-wine-bottle"></i>Wines & Alcohol Drinks</li>
+            </ul>
+        </section>
+        <section class="cards-output col-10">
+            <!--  <div class="card" onclick = "saveId (id)">
+            <div class="card-img">
+                <img src="https://www.decolore.net/wp-content/uploads/2019/08/cover.png" class="card-img-top" alt="...">
+            </div>
+            <div class="card-body">
+                <span class="type">type</span><i class="fa-regular fa-heart favs"></i>
+                <h5 class="card-title">name<span class="content">content</span></h5>
+                <h6 class="price">price</h6>
+                   <div class= "d-flex flex-nowrap align-items-center">
+                    <div class="input-group mb">
+                        <button class="btn btn-outline-secondary" type="button">-</button>
+                        <input type="number" class="form-control number" placeholder="#" aria-label="" disabled>
+                        <button class="btn btn-outline-secondary" type="button">+</button>
+                    </div>
+                    <i class="fa-solid fa-cart-arrow-down carts"></i>
+                    </div>
+            </div>
+        </div>-->
+        </section>
+    </div>
+
+    <footer class="bg-light p-4" id="footer">
+        <div class="d-flex p-4 footer1">
+            <div class="sectionFooter">
+                <a class="navbar-brand" href="#"><img src="./img/logo.png" alt="logo" width="120px"></a>
+                <p id="footerDesc">In publishing and graphic design. Lorem ipsum dolor sit amet consectetur
+                    adipisicing
+                    elit. Aut possimus,
+                    minima atque, iusto nulla dolorem quam cumque alias beatae magni a eaque aspernatur illo explicabo
+                    libero ut
+                    recusandae iste deleniti.</p>
+                <p><i class="fa-solid fa-house"></i> 1418 Riverwood Drive, CA 96052. US</p>
+                <p><i class="fa-regular fa-envelope"></i> support@fastkart.com</p>
+            </div>
+            <div class="sectionFooter">
+                <h4>Categories</h4>
+                <ul class="listFooter">
+                    <li>Vegetables & Fruit</li>
+                    <li>Beverages</li>
+                    <li>Meats & Seafood</li>
+                    <li>Breakfast & Dairy</li>
+                    <li>Frozen Foods</li>
+                    <li>Biscuits & Snacks</li>
+                    <li>Grocery & Staples</li>
+                    <li>Wines & Alcohol Drinks</li>
+                </ul>
+            </div>
+            <div class="sectionFooter">
+                <h4>Useful Links</h4>
+                <ul class="listFooter2">
+                    <li>Home</li>
+                    <li>Shop</li>
+                    <li>About Us</li>
+                    <li>Blog</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+            <div class="sectionFooter">
+                <h4>Help Center</h4>
+                <ul class="listFooter2">
+                    <li>Your Order</li>
+                    <li>Your Account</li>
+                    <li>Track Order</li>
+                    <li>Your Wishlist</li>
+                    <li>Search</li>
+                    <li>FAQ</li>
+                </ul>
+            </div>
+            <div id="contactUs" class="sectionFooter">
+                <h4>Contact Us</h4>
+                <div>
+                    <p><i class="fa-solid fa-phone-flip"></i> Hotline 24/7:</p>
+                    <p><strong>+91 888 104 2340</strong></p>
+                </div>
+                <div>
+                    <p><i class="fa-regular fa-envelope"></i> Email Address:</p>
+                    <p><strong>fastkart@hotmail.com</strong></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="">
+            <div>
+                <p>© 2022 Fastkart All rights reserved</p>
+            </div>
+            <div id="Media">
+                <div>
+                    <p>Stay connected: <i class="fa-brands fa-facebook-f"></i> <i class="fa-brands fa-twitter"></i> <i
+                            class="fa-brands fa-instagram"></i> <i class="fa-brands fa-pinterest-p"></i></p>
+                </div>
+                <div id="buttonBack">
+                    <button class="btn btn-success" type="button"><i class="fa-solid fa-gear"></i></i></button>
+                    <button class="btn btn-success" type="button" href="#"><i class="fa-solid fa-angle-up"></i></button>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="apis.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

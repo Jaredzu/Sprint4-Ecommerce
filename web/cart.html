@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart Sprint 4 E-commerce Jared</title>
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/1a58ad0bca.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <div>
+            <p>Something you love is now on sale! <span><strong><u>Buy now!</u></strong></span></p>
+        </div>
+        <div id="header2">
+            <i class="fa-solid fa-flag-usa"></i>
+            <p>English</p>
+            <p>USD</p>
+        </div>
+    </header>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="ecommerce.html"><img src="./img/logo.png" height="24px"></a>
+            <div class="navbar-collapse" id="navbarSupportedContent">
+                <form id="searcher" class="d-flex" role="search">
+                    <button id="gps" class="btn"><i class="fa-solid fa-location-dot"></i>
+                    </button>
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="I'm searching for..."
+                            aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <button class="btn btn-outline-secondary" type="button" id="button-addon2"><i
+                                class="fa-solid fa-magnifying-glass"></i></button>
+                    </div>
+                </form>
+                <ul id="nav-ul" class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><i
+                                class="fa-solid fa-phone-volume"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active border-start border-end" aria-current="page" href="favs.html"><i
+                                class="fa-regular fa-heart"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active border-end" aria-current="page" href="cart.html"><i
+                                class="fa-solid fa-cart-shopping"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="admin.html"><i class="fa-regular fa-user"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <button id="categories" class="btn"><i class="fa-solid fa-bars-staggered"></i> All Categories</button>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Home</option>
+                        </select>
+                    </li>
+                    <li>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Shop</option>
+                        </select>
+                    </li>
+                    <li>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Product</option>
+                        </select>
+                    </li>
+                    <li>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Mega Menu</option>
+                        </select>
+                    </li>
+                    <li>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Blog</option>
+                        </select>
+                    </li>
+                    <li>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Pages</option>
+                        </select>
+                    </li>
+                    <li>
+                        <a id="contact" class="nav-link" href="#">Contact</a>
+                    </li>
+
+                </ul>
+                <button id="bolt" class="btn btn-outline-success"><i class="fa-solid fa-bolt"></i>
+            </div>
+        </div>
+    </nav>
+    <nav class="navbar bg-light row">
+        <div id="cart-nav">
+            <span class="navbar-brand mb-0 h1">Cart</span>
+            <span>
+                <a href="ecommerce.html"><i class="fa-solid fa-house"></a></i> <strong>> Cart</strong></span>
+        </div>
+    </nav>
+
+    <button class="btn btn-outline-success" onclick="location.reload()">Make changes? Update your Cart</button>
+    <section class="cart-cards-output bg-light m-5">
+
+
+        <!--    <div class="cart-cards d-flex justify-content-around align-items-center p-3 border-bottom flex-wrap">
+            <img src="https://www.decolore.net/wp-content/uploads/2019/08/cover.png" style="
+            width: 7rem" alt="...">
+            <div>
+                <h3 class="card-title">De todito picante</h3>
+                <p>content</p>
+            </div>
+            <div>
+                <h6>price</h6>
+                <h5>$35.10</h5>
+            </div>
+            <div class="d-flex flex-nowrap align-items-center">
+                <div class="input-group mb">
+                    <button class="btn btn-outline-secondary" type="button">-</button>
+                    <input type="number" class="form-control number" style="width: 5rem ;" placeholder="#" aria-label=""
+                        disabled>
+                    <button class="btn btn-outline-secondary" type="button">+</button>
+                </div>
+            </div>
+            <div>
+                <h6>Total</h6>
+                <h5 class="text-success"><u>$35.10</u></h5>
+            </div>
+            <div>
+                <h6>Action</h6>
+                <h5 class="remove text-danger"><u>Remove</u></h5>
+            </div>
+
+        </div> -->
+    </section>
+    
+    <button type="" class="btn btn-success m-auto" id="continue">Continue</button>
+
+    <section class="cart-total bg-light card p-3 m-auto expand-lg" style="width: 80%; height: auto;">
+        <div class="card-title border-bottom">
+            <h5><strong>Card Total</strong></h5>
+        </div>
+        <div class="coupon">
+            <p>Coupon Apply</p>
+            <div class="input-group mb-3">
+                <input type="text" class="form-control border border-opacity-50 border-2 border-success"
+                    placeholder="Enter Coupon Coder Here..." aria-label="Recipient's username"
+                    aria-describedby="button-addon2">
+                <button class="btn btn-success" type="button">Apply</button>
+            </div>
+        </div>
+        <div id="total-cart" class="d-flex justify-content-between">
+            <h6>Total</h6>
+            <h5 class="text-success" id="totalfinal"><u></u></h5>
+        </div>
+        <div class="buttons-cart row justify-content-center ">
+
+            <button class="btn btn-danger m-2 " type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseExample" aria-expanded="false">
+                Process to Checkout
+            </button>
+
+            <div class="collapse" id="collapseExample">
+                <form action="">
+                    <div class="mb-3">
+                        <input type="text" class="form-control" id="buyName" placeholder="Name" >
+                    </div>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" id="buyDirection" placeholder="Direction">
+                    </div>
+                    <div class="mb-3">
+                        <input type="number" class="form-control" id="buyCell" placeholder="Cellphone">
+                    </div>
+                    <div class="d-flex flex-row justify-content-end">
+                        <button type="submit" class="btn btn-outline-secondary">Cancel</button>
+                        <button class="btn btn-danger ml-5" id="buynow">Buy Now</button>
+                    </div>
+                </form>
+            </div>
+            <a href="ecommerce.html" class="btn btn-outline-secondary m-2">←Return to shopping</a>
+
+        </div>
+
+    </section>
+    <footer class="bg-light p-4" id="footer">
+        <div class="d-flex p-4 footer1">
+            <div class="sectionFooter">
+                <a class="navbar-brand" href="#"><img src="./img/logo.png" alt="logo" width="120px"></a>
+                <p id="footerDesc">In publishing and graphic design. Lorem ipsum dolor sit amet consectetur
+                    adipisicing
+                    elit. Aut possimus,
+                    minima atque, iusto nulla dolorem quam cumque alias beatae magni a eaque aspernatur illo explicabo
+                    libero ut
+                    recusandae iste deleniti.</p>
+                <p><i class="fa-solid fa-house"></i> 1418 Riverwood Drive, CA 96052. US</p>
+                <p><i class="fa-regular fa-envelope"></i> support@fastkart.com</p>
+            </div>
+            <div class="sectionFooter">
+                <h4>Categories</h4>
+                <ul class="listFooter">
+                    <li>Vegetables & Fruit</li>
+                    <li>Beverages</li>
+                    <li>Meats & Seafood</li>
+                    <li>Breakfast & Dairy</li>
+                    <li>Frozen Foods</li>
+                    <li>Biscuits & Snacks</li>
+                    <li>Grocery & Staples</li>
+                    <li>Wines & Alcohol Drinks</li>
+                </ul>
+            </div>
+            <div class="sectionFooter">
+                <h4>Useful Links</h4>
+                <ul class="listFooter2">
+                    <li>Home</li>
+                    <li>Shop</li>
+                    <li>About Us</li>
+                    <li>Blog</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+            <div class="sectionFooter">
+                <h4>Help Center</h4>
+                <ul class="listFooter2">
+                    <li>Your Order</li>
+                    <li>Your Account</li>
+                    <li>Track Order</li>
+                    <li>Your Wishlist</li>
+                    <li>Search</li>
+                    <li>FAQ</li>
+                </ul>
+            </div>
+            <div id="contactUs" class="sectionFooter">
+                <h4>Contact Us</h4>
+                <div>
+                    <p><i class="fa-solid fa-phone-flip"></i> Hotline 24/7:</p>
+                    <p><strong>+91 888 104 2340</strong></p>
+                </div>
+                <div>
+                    <p><i class="fa-regular fa-envelope"></i> Email Address:</p>
+                    <p><strong>fastkart@hotmail.com</strong></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="">
+            <div>
+                <p>© 2022 Fastkart All rights reserved</p>
+            </div>
+            <div id="Media">
+                <div>
+                    <p>Stay connected: <i class="fa-brands fa-facebook-f"></i> <i class="fa-brands fa-twitter"></i> <i
+                            class="fa-brands fa-instagram"></i> <i class="fa-brands fa-pinterest-p"></i></p>
+                </div>
+                <div id="buttonBack">
+                    <button class="btn btn-success" type="button"><i class="fa-solid fa-gear"></i></i></button>
+                    <button class="btn btn-success" type="button" href="#"><i class="fa-solid fa-angle-up"></i></button>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script defer src="apis.js"></script>
+    <script defer src="script.js"></script>
+    <script defer src="cart.js"></script>
+</body>

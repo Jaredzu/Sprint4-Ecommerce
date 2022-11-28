@@ -1,0 +1,135 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "type": "snack",
+      "name": "De Todito BBQ",
+      "image": "https://www.confipuma.com/app_data_archivos/confipuma.soomi.co/productos/producto_72552d7fb5ae7943ab67d41428116bff1e87225b1597369687.png",
+      "price": 10,
+      "content": "165 g",
+      "quantity": 1
+    },
+    {
+      "id": 2,
+      "type": "drink",
+      "name": "Mock Soda",
+      "image": "https://zippypixels.com/wp-content/uploads/2016/03/01-free-soda-can-mockup-824x542.jpg",
+      "price": 5,
+      "content": "355 g",
+      "quantity": 1
+    },
+    {
+      "id": 3,
+      "type": "food",
+      "name": "Gooey Crunch",
+      "image": "https://cdn.dribbble.com/users/846227/screenshots/3144589/dribbble_3.jpg",
+      "price": 20,
+      "content": "500 g",
+      "quantity": 1
+    },
+    {
+      "id": 4,
+      "type": "drink",
+      "name": "Energy Up Drink Soda",
+      "image": "https://freedesignresources.net/wp-content/uploads/2020/06/large-soda-can-mockup-Free-Design-Resources-270620-prev2.jpg",
+      "price": 8,
+      "content": "355 g",
+      "quantity": 1
+    },
+    {
+      "id": 5,
+      "type": "food",
+      "name": "Mock up Cereal",
+      "image": "https://mockupsforfree.com/wp-content/uploads/2020/03/Cereal_Box_MeckupsForFree-1.jpg",
+      "price": 30,
+      "content": "240 g",
+      "quantity": 1
+    },
+    {
+      "id": 6,
+      "type": "snack",
+      "name": "Yummy Chips",
+      "image": "https://www.decolore.net/wp-content/uploads/2019/08/cover.png",
+      "price": 5,
+      "content": "75 g",
+      "quantity": 1
+    } 
+  ],
+  "shop": [
+    {
+      "name": "Jasmín",
+      "direction": "Medellín",
+      "cell": "12345645",
+      "facture": [
+        "De Todito BBQ",
+        "Mock Soda",
+        "Gooey Crunch",
+        "Energy Up Drink Soda",
+        "Mock up Cereal",
+        "Yummy Chips",
+        "Oreo",
+        "OREO GRANDE"
+      ],
+      "total": "$350",
+      "id": 1
+    },
+    {
+      "name": "Sara Valdez",
+      "direction": "Bello",
+      "cell": "123123",
+      "facture": [
+        "De Todito BBQ",
+        "Mock Soda",
+        "Gooey Crunch",
+        "Energy Up Drink Soda",
+        "Mock up Cereal",
+        "Yummy Chips",
+        "Oreo",
+        "OREO GRANDE"
+      ],
+      "total": "$374",
+      "id": 2
+    },
+    {
+      "name": "Mónica Chavarría",
+      "direction": "Villavicencio",
+      "cell": "123123123123",
+      "facture": [
+        "De Todito BBQ",
+        "Mock Soda",
+        "Gooey Crunch",
+        "Energy Up Drink Soda",
+        "Mock up Cereal",
+        "Yummy Chips",
+        "Oreo",
+        "OREO GRANDE"
+      ],
+      "total": "$359",
+      "id": 3
+    },
+    {
+      "name": "Jared",
+      "direction": "Caldas",
+      "cell": "3145555555",
+      "facture": [
+        "De Todito BBQ",
+        "Mock Soda",
+        "Oreo"
+      ],
+      "total": "$22",
+      "id": 4
+    },
+    {
+      "name": "Carlos",
+      "direction": "Medellin",
+      "cell": "2221111",
+      "facture": [
+        "Mock up Cereal",
+        "Yummy Chips",
+        "Oreo"
+      ],
+      "total": "$66",
+      "id": 5
+    }
+  ]
+}

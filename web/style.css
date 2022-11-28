@@ -1,0 +1,328 @@
+header {
+    background-color: #16987f;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-size: small;
+    padding: 0em 3em;
+}
+
+#header2 {
+    display: flex;
+    flex-direction: row;
+}
+
+#header2 p {
+    background-color: #16987f;
+    color: white;
+}
+
+#gps {
+    margin-right: 1em;
+    height: max-content;
+    border: 0.1px solid rgba(128, 128, 128, 0.262);
+}
+
+#searcher {
+    width: 80%;
+}
+
+#button-addon2 {
+    background-color: orange;
+    color: white;
+    border: none;
+}
+
+li i {
+    padding: 0 1vw;
+}
+
+#navbarSupportedContent {
+    display: flex;
+    flex-direction: row;
+}
+
+#nav-ul {
+    display: flex;
+    flex-direction: row;
+}
+
+#nav-ul a:hover {
+    background-color: #16987f;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+#nav-ul2 {
+    display: flex;
+    flex-direction: row;
+}
+
+#nav-ul2 a {
+    padding: 0 .5em;
+}
+
+.form-select {
+    border: none;
+}
+
+#contact {
+    color: black;
+}
+
+#categories {
+    color: white;
+    background-color: #16987f;
+    width: 17%;
+    padding: .5em;
+    margin-right: 4em;
+}
+
+#bolt {
+    margin-left: auto;
+    background-color: #3db59d33;
+    border: none;
+}
+
+/* ----------------USELESS SECTION--------------- */
+
+.stayhome {
+    background-image: url(img/clean-stayhome.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.textStayHome {
+    width: 50%;
+    padding: 6em;
+    padding-bottom: 2em;
+}
+
+.uselessUp {
+    margin-left: 1em;
+}
+
+.nutCollection {
+    background-image: url(img/cleannutcollection.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding: 3em 2em;
+}
+
+.healthyFood {
+    background-image: url(img/cleanhealthyfood.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding: 3em 2em;
+    margin-top: 1em;
+}
+
+.useless3 {
+    margin: 1em;
+}
+
+.HotDeals {
+    background-image: url(img/cleanhotdeals.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding: 4em 2em;
+    margin: 1em;
+    width: 30%;
+}
+
+
+.BuyMore {
+    background-image: url(img/cleanbuymore.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding: 4em 2em;
+    margin: 1em;
+    width: 30%;
+}
+
+.OrganicMeat {
+    background-image: url(img/cleanorganicmeat.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding: 4em 2em;
+    margin: 1em;
+    width: 30%;
+}
+
+
+.secondSection {
+    margin-top: 2.5em;
+}
+
+.sectionFooter {
+    width: 20%;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+.cards-output {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 18rem;
+    height: 21rem;
+
+}
+
+.card-img {
+    overflow: hidden;
+    height: 80%;
+}
+
+.card-img-top {
+    width: 100%;
+}
+
+.type {
+    color: rgb(182, 182, 182);
+}
+
+.number {
+    text-align: center;
+}
+
+.price {
+    color: #16987f;
+}
+
+.content {
+    font-size: small;
+    color: rgb(182, 182, 182);
+}
+
+.favs {
+    margin-left: 70%;
+    color: #981616;
+    cursor: pointer;
+    padding: 3px;
+    transition: 400ms;
+
+}
+
+.favs:hover {
+    background-color: #981616;
+    color: white;
+    border-radius: 50px;
+}
+
+.carts {
+    border: 1px solid #16987f;
+    color: #16987f;
+    transition: 400ms;
+}
+
+.carts:hover {
+    background-color: #16987f;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+#cart-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.h1 {
+    font-size: xx-large;
+}
+
+.remove:hover {
+    cursor: pointer;
+}
+
+.favsdelete {
+    position: relative;
+    top: -160px;
+    left: -30px;
+    font-size: xx-large;
+    color: #981616;
+    cursor: pointer;
+    padding: 3px;
+    transition: 400ms;
+}
+
+/* --------CART SECTION--------- */
+#buynow {
+    margin-left: 1em;
+}
+
+#continue {
+    display: flex;
+}
+
+.cart-total {
+    display: none;
+}
+
+
+@media screen and (max-width: 1280px) {
+    .textStayHome {
+        width: 70%;
+        padding: 2.5em;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .cart-cards {
+        display: flex;
+        flex-direction: column;
+        margin: 1em
+    }
+
+    .footer1 {
+        flex-direction: column;
+    }
+
+    .sectionFooter {
+        width: 90%;
+    }
+
+    #cart-nav {
+        flex-direction: column;
+    }
+
+    .textStayHome {
+        width: 90%;
+        padding: 0.5em;
+    }
+
+    .HotDeals {
+        padding: 1em;
+        width: 90%;
+    }
+
+
+    .BuyMore {
+        padding: 1em;
+        width: 90%;
+    }
+
+    .OrganicMeat {
+        padding: 1em;
+        width: 90%;
+    }
+
+    .category {
+        display: none;
+    }
+}
