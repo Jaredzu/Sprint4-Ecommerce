@@ -29,6 +29,7 @@ const createCard = (product) => {
 };
 
 
+
 // ASYNC/AWAIT to use the Mock API Information from apis.js//
 
 
@@ -76,7 +77,12 @@ const addCart = (id) => {
 
     if (cart.some((product) => product.id === id)) {  //Esta condición compara si ya existe el elemento en el Local Storage
         localStorage.removeItem("cartJSON") // Esto elimina todo del cartJSON
-        alert("Product deleted from your cart")
+
+        const toastLiveExample = document.getElementById('liveToast2')
+        const toast = new bootstrap.Toast(toastLiveExample)
+
+        toast.show()
+
         let filterCart = cart.filter((element) => {
             return element.id != id
         })
@@ -97,7 +103,10 @@ const addCart = (id) => {
         let cartJSON = JSON.stringify(cart)
         localStorage.setItem("cartJSON", cartJSON)
         notificationCart()
-        alert("Product added to cart")
+        const toastLiveExample = document.getElementById('liveToast')
+        const toast = new bootstrap.Toast(toastLiveExample)
+
+        toast.show()
     }
     return cart
 }
