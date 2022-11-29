@@ -58,7 +58,8 @@
                                 class="fa-solid fa-cart-shopping"></i></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="admin.html"><i class="fa-regular fa-user"></i></a>
+                        <a class="nav-link active" aria-current="page" href="admin.html"><i
+                                class="fa-regular fa-user"></i></a>
                     </li>
                 </ul>
             </div>
@@ -156,7 +157,7 @@
 
         </div> -->
     </section>
-    
+
     <button type="" class="btn btn-success m-auto" id="continue">Continue</button>
 
     <section class="cart-total bg-light card p-3 m-auto expand-lg" style="width: 80%; height: auto;">
@@ -186,7 +187,7 @@
             <div class="collapse" id="collapseExample">
                 <form action="">
                     <div class="mb-3">
-                        <input type="text" class="form-control" id="buyName" placeholder="Name" >
+                        <input type="text" class="form-control" id="buyName" placeholder="Name">
                     </div>
                     <div class="mb-3">
                         <input type="text" class="form-control" id="buyDirection" placeholder="Direction">
@@ -202,6 +203,18 @@
             </div>
             <a href="ecommerce.html" class="btn btn-outline-secondary m-2">←Return to shopping</a>
 
+        </div>
+
+        <div class="toast-container position-fixed bottom-0 end-0 p-3">
+            <div id="liveToast2" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="toast-header">
+                    <strong class="me-auto">Fastkart</strong>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                </div>
+                <div class="toast-body">
+                    Product deleted from your cart.
+                </div>
+            </div>
         </div>
 
     </section>

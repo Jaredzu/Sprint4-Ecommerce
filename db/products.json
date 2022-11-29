@@ -53,7 +53,16 @@
       "price": 5,
       "content": "75 g",
       "quantity": 1
-    } 
+    },
+    {
+      "type": "drink",
+      "name": "Colombiana",
+      "image": "https://metrocolombiafood.vteximg.com.br/arquivos/ids/157411-1000-1000/7702090017151-1.jpg?v=636670240990430000",
+      "price": 7,
+      "content": "350 g",
+      "quantity": 1,
+      "id": 7
+    }
   ],
   "shop": [
     {
@@ -130,6 +139,44 @@
       ],
       "total": "$66",
       "id": 5
+    },
+    {
+      "name": "Laura",
+      "direction": "Armenia",
+      "cell": "5554441111",
+      "facture": [
+        "De Todito BBQ",
+        "Mock Soda",
+        "Gooey Crunch"
+      ],
+      "total": "$90",
+      "id": 6
+    },
+    {
+      "name": "Lalalala",
+      "direction": "Hola",
+      "cell": "11222",
+      "facture": [
+        "De Todito BBQ",
+        "Mock Soda",
+        "Gooey Crunch",
+        "Energy Up Drink Soda"
+      ],
+      "total": "$114",
+      "id": 7
+    },
+    {
+      "name": "Jared",
+      "direction": "Cinepolis",
+      "cell": "543216512",
+      "facture": [
+        "Colombiana",
+        "De Todito BBQ",
+        "Yummy Chips",
+        "Mock Soda"
+      ],
+      "total": "$44",
+      "id": 8
     }
   ]
 }
